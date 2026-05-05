@@ -1,0 +1,29 @@
+# Build folders
+build/
+dist/
+package/output/
+
+# Database
+data/camp.db
+*.db
+*.sqlite
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# MXE artifacts (if any copied accidentally)
+
+
+# Installer outputs
+*.exe

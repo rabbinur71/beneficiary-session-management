@@ -1,0 +1,14 @@
+CC = x86_64-w64-mingw32.shared-gcc
+PKGCONFIG = x86_64-w64-mingw32.shared-pkg-config
+
+CFLAGS = `$(PKGCONFIG) --cflags gtk+-3.0 sqlite3` -Wall -O2
+LIBS = `$(PKGCONFIG) --libs gtk+-3.0 sqlite3`
+
+SRC = src/main.c src/ui.c src/database.c src/report.c src/csv_export.c
+OUT = dist/windows/BeneficiarySessionManagement.exe
+
+all:
+	$(CC) $(SRC) $(CFLAGS) $(LIBS) -mwindows -o $(OUT)
+
+clean:
+	rm -f $(OUT)
