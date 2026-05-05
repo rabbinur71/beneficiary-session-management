@@ -24,7 +24,7 @@ Cross-platform C-based GTK application for managing beneficiary session data usi
 ![Add Form](screenshots/record-ui.jpg)
 
 ### Report View / CSV Export
-![Report](screenshots/report-ui.jpg)
+![Report](screenshots/report-ut.jpg)
 
 ### All interfaces
 ![Main UI](screenshots/all-ui.jpg)

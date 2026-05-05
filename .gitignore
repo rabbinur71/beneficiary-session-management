@@ -2,6 +2,7 @@
 build/
 dist/
 package/output/
+package/app/
 
 # Database
 data/camp.db
